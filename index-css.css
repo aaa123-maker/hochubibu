@@ -1,0 +1,185 @@
+
+.navbar{ position: fixed;}
+.nav-link{ color: orange; font-size: 26px; font-weight: 600;}
+.navbar-brand{color: orange; font-size: 30px; font-weight: 500;}
+    
+  
+#img1-1{opacity: 100%; width: 100%;}
+#h1-1{
+color: white;
+text-shadow: black 2px 2px 4px;
+position: absolute;
+top: 35%;
+left: 5%;
+text-align: center;
+font-size: 58px;
+}
+#h1-2{
+color: white;
+text-shadow: black 1px 1px 2px;
+position: absolute;
+top: 55%;
+left: 5%;
+text-align: center;
+font-size: 36px;
+}
+#btn1-1{
+position: absolute;
+background-color: white;
+color: black;
+font-weight: 600;
+top: 80%;
+left:7%;
+width: 40%;
+}
+#btn1-2{
+position: absolute;
+background-color: white;
+color: black;
+font-weight: 600;
+top: 80%;
+left: 55%;
+width: 40%;
+}
+#blog{
+ position: relative; 
+}
+#h2-1{ font-size: 38px;
+position: relative;
+color: #270316;
+top: 10%;
+left: 35%;
+}
+#img2-1{
+ width: 100%;
+ height: 200px;
+}
+#h2-2{ font-size: 22px;
+color: #6F5763;
+text-shadow: black 1px 1px 2px;
+ 
+}
+
+
+.container-fluid{
+	padding: 60px 0;
+}
+
+.col-lg-4{
+	padding: 0;!important
+}
+.card-footer{
+	border: none;
+	background-color:#FFC42B; 
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+.card-footer:hover{
+	background-color:#6c757d; 
+	text-decoration: none;
+	color: white;
+}
+
+.main3{
+	height:80vh;
+	background-image: url("https://blog.fly.deals/wp-content/uploads/2020/06/London_Tower_Bridge_City.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.main3 .btn{
+	margin-top: 4vh;
+	padding: 10px 30px;
+	color: white;
+	background-color: red;
+	font-size: 20px;
+}
+.main3 .btn:hover{
+	background-color: blue;
+}
+.main3 h3{
+	margin: auto;
+	margin-top:10vh;
+	width: 60%;
+	text-align: center;
+	color: white;
+}
+.content3{
+	margin-top: 4vh;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+.mt-8{
+	margin-top: 18vh;
+	margin-bottom: 10vh
+
+}
+.main3 .card{
+	margin:0 0 30px 0;
+	background-color:  red;
+}
+.main-title{
+	font-size: 90px;
+	color:  #FFC42B;
+}
+.main3 .card{
+	margin:0 0 30px 0;
+	background-color:  #F2ECEC;
+}
+#card-body{
+ padding: 1%;
+}
+.card-text{color: #908C89; font-size: 18px;}
+#btn2-1{ background-color:  orange; color: white; width: 100%;}
+
+.main-title{
+	font-size: 90px;
+	color:  #FFC42B;
+}
+.yellow{
+	color:white;
+	background-color:#FFC42B;
+}
+.yellow h3{
+	padding: 10px;
+	margin:0 auto;
+}
+@media (max-width: 991.98px){
+	.card{
+		margin: 20px auto;
+	}
+	.header{
+	height:130vh;
+	}
+	.main3{
+	height:100vh;
+	}
+}
+.content4 .card{
+	border:none;
+	background-color: white;
+}
+.content4 .card-body, .card{
+	padding:0;
+}
+.content4 .btn{
+	width: 50%;
+}
+.city{
+	color:white;
+	height:calc(20vh+60px);
+	background-image: url("https://turkishairlines.ssl.cdn.sdlmedia.com/637127833578357668VX.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.city .btn{
+	padding: 10px 70px;
+}
+a{
+	color:#000000;
+}
+a:hover{
+	text-decoration: none;
+	color:#FFC42B;
+}
